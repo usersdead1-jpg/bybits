@@ -101,4 +101,20 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 300);
     });
   }
+
+  // Parallax in hero
+  const hero = document.querySelector('.hero');
+  if (hero) {
+    hero.addEventListener('mousemove', (e) => {
+      const rect = hero.getBoundingClientRect();
+      const x = (e.clientX - rect.left) / rect.width - 0.5;
+      const y = (e.clientY - rect.top) / rect.height - 0.5;
+      document.documentElement.style.setProperty('--mx', x.toFixed(3));
+      document.documentElement.style.setProperty('--my', y.toFixed(3));
+    });
+    hero.addEventListener('mouseleave', () => {
+      document.documentElement.style.setProperty('--mx', '0');
+      document.documentElement.style.setProperty('--my', '0');
+    });
+  }
 });
