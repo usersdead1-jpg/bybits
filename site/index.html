@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WildStar Bet — бонусы, турниры и мгновенные выплаты</title>
+    <meta name="description" content="Уникальный шаблон сайта: бонусы до 200%, фриспины, турниры и мгновенные выплаты. Адаптивный, быстрый и современный дизайн." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🎰</text></svg>" />
+  </head>
+  <body>
+    <div class="noise-bg" aria-hidden="true"></div>
+    <header class="site-header" id="siteHeader">
+      <div class="container header-inner">
+        <a href="#" class="logo" aria-label="WildStar Bet">
+          <span class="logo-mark">WS</span>
+          <span class="logo-text">WildStar <em>Bet</em></span>
+        </a>
+        <nav class="nav" id="primaryNav" aria-label="Главное меню">
+          <a href="#promo" class="nav-link">Акции</a>
+          <a href="#games" class="nav-link">Игры</a>
+          <a href="#tournaments" class="nav-link">Турниры</a>
+          <a href="#payments" class="nav-link">Платежи</a>
+          <a href="#support" class="nav-link">Поддержка</a>
+        </nav>
+        <div class="header-actions">
+          <button class="btn ghost" id="loginBtn">Войти</button>
+          <button class="btn primary" id="signupOpenBtn">Регистрация</button>
+          <button class="burger" id="burgerBtn" aria-label="Открыть меню" aria-expanded="false" aria-controls="primaryNav">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="aurora" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <h1 class="hero-title">Бонусы до <span class="accent">200%</span> + <span class="accent">100FS</span></h1>
+            <p class="hero-sub">Играй в слоты, лайв и турниры. Мгновенные выплаты, честные коэффициенты, поддержка 24/7.</p>
+            <div class="hero-cta">
+              <button class="btn xl primary" id="joinNow">Присоединиться</button>
+              <a class="btn xl secondary" href="#games">Играть демо</a>
+            </div>
+            <ul class="trust-list" role="list">
+              <li>⚡ Мгновенные выплаты</li>
+              <li>🛡️ Безопасные платежи</li>
+              <li>🎧 Поддержка 24/7</li>
+            </ul>
+          </div>
+          <div class="hero-art">
+            <div class="card-glow"></div>
+            <div class="promo-card">
+              <div class="promo-badge">Новичкам</div>
+              <div class="promo-body">
+                <div class="promo-sum">+200%</div>
+                <div class="promo-desc">к первому депозиту</div>
+                <button class="btn full neon" id="copyBonus">Скопировать промо: WSB200</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ticker" id="promo">
+          <div class="track">
+            <span>Кешбэк до 15%</span>
+            <span>Турниры каждую неделю</span>
+            <span>Эксклюзивные фриспины</span>
+            <span>VIP-программа</span>
+            <span>Награды за активность</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="features" id="games">
+        <div class="container">
+          <h2 class="section-title">Играй как нравится</h2>
+          <div class="grid features-grid">
+            <article class="feature-card">
+              <div class="icon">🎰</div>
+              <h3>Слоты</h3>
+              <p>Большой выбор популярных и новых слотов с бонусными раундами.</p>
+              <a href="#" class="link">Открыть каталог</a>
+            </article>
+            <article class="feature-card">
+              <div class="icon">🎲</div>
+              <h3>Live</h3>
+              <p>Реальные дилеры, эмоции и честная игра в режиме онлайн.</p>
+              <a href="#" class="link">Смотреть столы</a>
+            </article>
+            <article class="feature-card">
+              <div class="icon">🏆</div>
+              <h3>Турниры</h3>
+              <p>Соревнуйся и забирай призы. Еженедельные события для всех уровней.</p>
+              <a href="#tournaments" class="link">К календарю</a>
+            </article>
+            <article class="feature-card">
+              <div class="icon">💎</div>
+              <h3>VIP</h3>
+              <p>Личные менеджеры, повышенный кешбэк и эксклюзивные бонусы.</p>
+              <a href="#" class="link">Узнать условия</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo-grid" aria-labelledby="promoTitle">
+        <div class="container">
+          <h2 id="promoTitle" class="section-title">Горячие предложения</h2>
+          <div class="grid promo-cards">
+            <article class="promo-big">
+              <div class="tag">Эксклюзив</div>
+              <h3>Еженедельный кешбэк до 15%</h3>
+              <p>Возвращай часть ставок и продолжай игру с преимуществом.</p>
+              <button class="btn secondary">Активировать</button>
+            </article>
+            <article class="promo-small">
+              <h4>100 фриспинов</h4>
+              <p>За серию побед в любимых слотах.</p>
+              <button class="btn ghost small">Подробнее</button>
+            </article>
+            <article class="promo-small">
+              <h4>Болей за любимых</h4>
+              <p>Усиленные коэффициенты на топовые матчи.</p>
+              <button class="btn ghost small">Ставить</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="steps" id="tournaments">
+        <div class="container">
+          <h2 class="section-title">Старт за 3 шага</h2>
+          <ol class="steps-list">
+            <li>
+              <span class="num">1</span>
+              <h3>Создай аккаунт</h3>
+              <p>Быстрая регистрация — не больше одной минуты.</p>
+            </li>
+            <li>
+              <span class="num">2</span>
+              <h3>Пополни баланс</h3>
+              <p>Выбирай удобный способ: карты, кошельки, крипто.</p>
+            </li>
+            <li>
+              <span class="num">3</span>
+              <h3>Играй и побеждай</h3>
+              <p>Получай бонусы, участвуйте в турнирах, копи награды.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="payments" id="payments">
+        <div class="container payments-inner">
+          <div>
+            <h2 class="section-title">Платежи без задержек</h2>
+            <p class="muted">Моментальные депозиты и быстрые выплаты. Поддерживаем популярные способы оплаты и безопасность на каждом шаге.</p>
+            <ul class="pay-icons" role="list" aria-label="Платежные системы">
+              <li title="Visa" aria-label="Visa">
+                <svg viewBox="0 0 64 32" width="72" height="36" aria-hidden="true"><rect width="64" height="32" rx="6" fill="#0b1220"/><text x="12" y="22" fill="#2dd4bf" font-family="Inter, system-ui" font-size="16" font-weight="700">VISA</text></svg>
+              </li>
+              <li title="Mastercard" aria-label="Mastercard">
+                <svg viewBox="0 0 64 32" width="72" height="36" aria-hidden="true"><rect width="64" height="32" rx="6" fill="#0b1220"/><circle cx="27" cy="16" r="8" fill="#f59e0b"/><circle cx="37" cy="16" r="8" fill="#ef4444"/></svg>
+              </li>
+              <li title="Qiwi" aria-label="Qiwi">
+                <svg viewBox="0 0 64 32" width="72" height="36" aria-hidden="true"><rect width="64" height="32" rx="6" fill="#0b1220"/><text x="12" y="22" fill="#f59e0b" font-family="Inter, system-ui" font-size="16" font-weight="700">QIWI</text></svg>
+              </li>
+              <li title="Crypto" aria-label="Crypto">
+                <svg viewBox="0 0 64 32" width="72" height="36" aria-hidden="true"><rect width="64" height="32" rx="6" fill="#0b1220"/><text x="8" y="22" fill="#22c55e" font-family="Inter, system-ui" font-size="16" font-weight="700">CRYPTO</text></svg>
+              </li>
+            </ul>
+          </div>
+          <div class="payments-card">
+            <div class="payments-badge">0% комиссия</div>
+            <h3>Выплаты от 5 минут</h3>
+            <p>Автоматическая обработка заявок, без скрытых сборов.</p>
+            <button class="btn primary small">Вывести</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq" id="support">
+        <div class="container">
+          <h2 class="section-title">FAQ и поддержка</h2>
+          <div class="faq-list" role="list">
+            <details>
+              <summary>Как получить приветственный бонус?</summary>
+              <div class="faq-body">Создайте аккаунт, внесите первый депозит и активируйте промокод WSB200 в личном кабинете.</div>
+            </details>
+            <details>
+              <summary>Какие способы оплаты доступны?</summary>
+              <div class="faq-body">Поддерживаем банковские карты, электронные кошельки и криптовалюту. Список пополняется.</div>
+            </details>
+            <details>
+              <summary>Сколько занимает вывод?</summary>
+              <div class="faq-body">Как правило от 5 до 30 минут. В редких случаях — до 24 часов.</div>
+            </details>
+            <details>
+              <summary>Как связаться с поддержкой?</summary>
+              <div class="faq-body">Пишите в чат 24/7 или на email support@example.com. Также доступен Телеграм-бот.</div>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <span class="logo-mark">WS</span>
+            <span class="logo-text">WildStar <em>Bet</em></span>
+          </a>
+          <p class="muted">Адаптивный HTML-шаблон. Все названия и данные — демонстрационные.</p>
+        </div>
+        <div class="footer-cols">
+          <nav class="footer-col" aria-label="Компания">
+            <h4>Компания</h4>
+            <a href="#">О нас</a>
+            <a href="#">Программа лояльности</a>
+            <a href="#">Партнерам</a>
+          </nav>
+          <nav class="footer-col" aria-label="Ресурсы">
+            <h4>Ресурсы</h4>
+            <a href="#">Блог</a>
+            <a href="#">Правила</a>
+            <a href="#">Политика</a>
+          </nav>
+          <nav class="footer-col" aria-label="Поддержка">
+            <h4>Поддержка</h4>
+            <a href="#support">FAQ</a>
+            <a href="#">Чат 24/7</a>
+            <a href="#">Связаться</a>
+          </nav>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p class="tiny">18+. Играйте ответственно. Шаблон создан для демонстрационных целей.</p>
+        <div class="socials" role="list" aria-label="Социальные сети">
+          <a href="#" aria-label="Telegram">✈️</a>
+          <a href="#" aria-label="VK">🌀</a>
+          <a href="#" aria-label="YouTube">▶️</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal" id="signupModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="signupTitle">
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-dialog">
+        <button class="modal-close" data-close aria-label="Закрыть">×</button>
+        <h3 id="signupTitle">Создать аккаунт</h3>
+        <form class="modal-form" id="signupForm">
+          <label>
+            Email
+            <input type="email" name="email" required placeholder="you@example.com" />
+          </label>
+          <label>
+            Пароль
+            <input type="password" name="password" required minlength="6" placeholder="••••••••" />
+          </label>
+          <label class="inline">
+            <input type="checkbox" required /> Я согласен с условиями
+          </label>
+          <button type="submit" class="btn primary full">Зарегистрироваться</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./assets/js/main.js" defer></script>
+  </body>
+</html>
